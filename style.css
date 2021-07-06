@@ -27,6 +27,8 @@ h1{
 }
 .about-me{
     background-image: url(images/bg-aboutme-img.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 h2{
     text-align: center;
@@ -34,7 +36,7 @@ h2{
     color: darkgray;
 }
 h3{
-    color: white;
+    color: grey;
 }
 body p{
     text-align: center;
@@ -49,6 +51,7 @@ body p{
     width: 250px;
 }
 footer{
+    padding-top: 20px;
     height: 200px;
     width: 100%;
     font-weight: bold ;
