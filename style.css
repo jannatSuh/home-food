@@ -1,0 +1,62 @@
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: rgb(58, 58, 58);
+    font-size: 50px;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width:50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 80%;
+    padding-top: 10%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    color: aliceblue;
+    padding: 10px 40px;
+    border-radius: 40px;
+    font-weight: 700;
+}
+.about-me{
+    background-image: url(images/bg-aboutme-img.jpg);
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    color: darkgray;
+}
+h3{
+    color: white;
+}
+body p{
+    text-align: center;
+    text-align: justify;
+}
+.recipes-area img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+    width: 250px;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    font-weight: bold ;
+    text-align: center;
+    background-color: black;
+}
+.recipes-box{
+    box-shadow: 10px 10px 30px gray;
+    margin: 30px;
+    border-radius: 30px;
+}
